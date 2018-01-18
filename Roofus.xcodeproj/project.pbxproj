@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB5DBF9A20101D27004A635F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBF9920101D27004A635F /* AppDelegate.swift */; };
+		DB5DBF9C20101D27004A635F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBF9B20101D27004A635F /* ViewController.swift */; };
+		DB5DBF9F20101D27004A635F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5DBF9D20101D27004A635F /* Main.storyboard */; };
+		DB5DBFA220101D27004A635F /* Roofus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFA020101D27004A635F /* Roofus.xcdatamodeld */; };
+		DB5DBFA420101D27004A635F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5DBFA320101D27004A635F /* Assets.xcassets */; };
+		DB5DBFA720101D27004A635F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5DBFA520101D27004A635F /* LaunchScreen.storyboard */; };
+		DB5DBFB220101D28004A635F /* RoofusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFB120101D28004A635F /* RoofusTests.swift */; };
+		DB5DBFBD20101D28004A635F /* RoofusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFBC20101D28004A635F /* RoofusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB5DBFAE20101D28004A635F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5DBF8E20101D27004A635F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5DBF9520101D27004A635F;
+			remoteInfo = Roofus;
+		};
+		DB5DBFB920101D28004A635F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB5DBF8E20101D27004A635F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB5DBF9520101D27004A635F;
+			remoteInfo = Roofus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB5DBF9620101D27004A635F /* Roofus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roofus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5DBF9920101D27004A635F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB5DBF9B20101D27004A635F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB5DBF9E20101D27004A635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB5DBFA120101D27004A635F /* Roofus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roofus.xcdatamodel; sourceTree = "<group>"; };
+		DB5DBFA320101D27004A635F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB5DBFA620101D27004A635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB5DBFA820101D27004A635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5DBFAD20101D28004A635F /* RoofusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoofusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5DBFB120101D28004A635F /* RoofusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofusTests.swift; sourceTree = "<group>"; };
+		DB5DBFB320101D28004A635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5DBFB820101D28004A635F /* RoofusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoofusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB5DBFBC20101D28004A635F /* RoofusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofusUITests.swift; sourceTree = "<group>"; };
+		DB5DBFBE20101D28004A635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB5DBF9320101D27004A635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DBFAA20101D28004A635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DBFB520101D28004A635F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB5DBF8D20101D27004A635F = {
+			isa = PBXGroup;
+			children = (
+				DB5DBF9820101D27004A635F /* Roofus */,
+				DB5DBFB020101D28004A635F /* RoofusTests */,
+				DB5DBFBB20101D28004A635F /* RoofusUITests */,
+				DB5DBF9720101D27004A635F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5DBF9720101D27004A635F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBF9620101D27004A635F /* Roofus.app */,
+				DB5DBFAD20101D28004A635F /* RoofusTests.xctest */,
+				DB5DBFB820101D28004A635F /* RoofusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB5DBF9820101D27004A635F /* Roofus */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBF9920101D27004A635F /* AppDelegate.swift */,
+				DB5DBF9B20101D27004A635F /* ViewController.swift */,
+				DB5DBF9D20101D27004A635F /* Main.storyboard */,
+				DB5DBFA320101D27004A635F /* Assets.xcassets */,
+				DB5DBFA520101D27004A635F /* LaunchScreen.storyboard */,
+				DB5DBFA820101D27004A635F /* Info.plist */,
+				DB5DBFA020101D27004A635F /* Roofus.xcdatamodeld */,
+			);
+			path = Roofus;
+			sourceTree = "<group>";
+		};
+		DB5DBFB020101D28004A635F /* RoofusTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBFB120101D28004A635F /* RoofusTests.swift */,
+				DB5DBFB320101D28004A635F /* Info.plist */,
+			);
+			path = RoofusTests;
+			sourceTree = "<group>";
+		};
+		DB5DBFBB20101D28004A635F /* RoofusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBFBC20101D28004A635F /* RoofusUITests.swift */,
+				DB5DBFBE20101D28004A635F /* Info.plist */,
+			);
+			path = RoofusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB5DBF9520101D27004A635F /* Roofus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5DBFC120101D28004A635F /* Build configuration list for PBXNativeTarget "Roofus" */;
+			buildPhases = (
+				DB5DBF9220101D27004A635F /* Sources */,
+				DB5DBF9320101D27004A635F /* Frameworks */,
+				DB5DBF9420101D27004A635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roofus;
+			productName = Roofus;
+			productReference = DB5DBF9620101D27004A635F /* Roofus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB5DBFAC20101D28004A635F /* RoofusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5DBFC420101D28004A635F /* Build configuration list for PBXNativeTarget "RoofusTests" */;
+			buildPhases = (
+				DB5DBFA920101D28004A635F /* Sources */,
+				DB5DBFAA20101D28004A635F /* Frameworks */,
+				DB5DBFAB20101D28004A635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5DBFAF20101D28004A635F /* PBXTargetDependency */,
+			);
+			name = RoofusTests;
+			productName = RoofusTests;
+			productReference = DB5DBFAD20101D28004A635F /* RoofusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB5DBFB720101D28004A635F /* RoofusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB5DBFC720101D28004A635F /* Build configuration list for PBXNativeTarget "RoofusUITests" */;
+			buildPhases = (
+				DB5DBFB420101D28004A635F /* Sources */,
+				DB5DBFB520101D28004A635F /* Frameworks */,
+				DB5DBFB620101D28004A635F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB5DBFBA20101D28004A635F /* PBXTargetDependency */,
+			);
+			name = RoofusUITests;
+			productName = RoofusUITests;
+			productReference = DB5DBFB820101D28004A635F /* RoofusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB5DBF8E20101D27004A635F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = AireCodes;
+				TargetAttributes = {
+					DB5DBF9520101D27004A635F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB5DBFAC20101D28004A635F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB5DBF9520101D27004A635F;
+					};
+					DB5DBFB720101D28004A635F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB5DBF9520101D27004A635F;
+					};
+				};
+			};
+			buildConfigurationList = DB5DBF9120101D27004A635F /* Build configuration list for PBXProject "Roofus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB5DBF8D20101D27004A635F;
+			productRefGroup = DB5DBF9720101D27004A635F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB5DBF9520101D27004A635F /* Roofus */,
+				DB5DBFAC20101D28004A635F /* RoofusTests */,
+				DB5DBFB720101D28004A635F /* RoofusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB5DBF9420101D27004A635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5DBFA720101D27004A635F /* LaunchScreen.storyboard in Resources */,
+				DB5DBFA420101D27004A635F /* Assets.xcassets in Resources */,
+				DB5DBF9F20101D27004A635F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DBFAB20101D28004A635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DBFB620101D28004A635F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB5DBF9220101D27004A635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5DBF9C20101D27004A635F /* ViewController.swift in Sources */,
+				DB5DBF9A20101D27004A635F /* AppDelegate.swift in Sources */,
+				DB5DBFA220101D27004A635F /* Roofus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DBFA920101D28004A635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5DBFB220101D28004A635F /* RoofusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5DBFB420101D28004A635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5DBFBD20101D28004A635F /* RoofusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB5DBFAF20101D28004A635F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5DBF9520101D27004A635F /* Roofus */;
+			targetProxy = DB5DBFAE20101D28004A635F /* PBXContainerItemProxy */;
+		};
+		DB5DBFBA20101D28004A635F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB5DBF9520101D27004A635F /* Roofus */;
+			targetProxy = DB5DBFB920101D28004A635F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB5DBF9D20101D27004A635F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5DBF9E20101D27004A635F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB5DBFA520101D27004A635F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB5DBFA620101D27004A635F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB5DBFBF20101D28004A635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB5DBFC020101D28004A635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB5DBFC220101D28004A635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7V3E3W28E;
+				INFOPLIST_FILE = Roofus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.Roofus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB5DBFC320101D28004A635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7V3E3W28E;
+				INFOPLIST_FILE = Roofus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.Roofus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB5DBFC520101D28004A635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7V3E3W28E;
+				INFOPLIST_FILE = RoofusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.RoofusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roofus.app/Roofus";
+			};
+			name = Debug;
+		};
+		DB5DBFC620101D28004A635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7V3E3W28E;
+				INFOPLIST_FILE = RoofusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.RoofusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roofus.app/Roofus";
+			};
+			name = Release;
+		};
+		DB5DBFC820101D28004A635F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7V3E3W28E;
+				INFOPLIST_FILE = RoofusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.RoofusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roofus;
+			};
+			name = Debug;
+		};
+		DB5DBFC920101D28004A635F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S7V3E3W28E;
+				INFOPLIST_FILE = RoofusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.RoofusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Roofus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB5DBF9120101D27004A635F /* Build configuration list for PBXProject "Roofus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5DBFBF20101D28004A635F /* Debug */,
+				DB5DBFC020101D28004A635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5DBFC120101D28004A635F /* Build configuration list for PBXNativeTarget "Roofus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5DBFC220101D28004A635F /* Debug */,
+				DB5DBFC320101D28004A635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5DBFC420101D28004A635F /* Build configuration list for PBXNativeTarget "RoofusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5DBFC520101D28004A635F /* Debug */,
+				DB5DBFC620101D28004A635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB5DBFC720101D28004A635F /* Build configuration list for PBXNativeTarget "RoofusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB5DBFC820101D28004A635F /* Debug */,
+				DB5DBFC920101D28004A635F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DB5DBFA020101D27004A635F /* Roofus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DB5DBFA120101D27004A635F /* Roofus.xcdatamodel */,
+			);
+			currentVersion = DB5DBFA120101D27004A635F /* Roofus.xcdatamodel */;
+			path = Roofus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DB5DBF8E20101D27004A635F /* Project object */;
+}
