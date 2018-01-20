@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0A33A51149C2F9A497C39E6 /* Pods_Roofus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7533ADDEB5377DB17CEC838 /* Pods_Roofus.framework */; };
+		CCFB785B2A77B5590EB18DD6 /* Pods_RoofusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E55AD03BA5A1C0C8D6C0818 /* Pods_RoofusUITests.framework */; };
+		DB2424712012789500B3B532 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2424702012789500B3B532 /* Constants.swift */; };
+		DB242474201279FB00B3B532 /* ApiClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB242473201279FB00B3B532 /* ApiClientProtocol.swift */; };
+		DB24247620127A3900B3B532 /* CoinMarketApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB24247520127A3900B3B532 /* CoinMarketApiClient.swift */; };
 		DB5DBF9A20101D27004A635F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBF9920101D27004A635F /* AppDelegate.swift */; };
-		DB5DBF9C20101D27004A635F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBF9B20101D27004A635F /* ViewController.swift */; };
-		DB5DBF9F20101D27004A635F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5DBF9D20101D27004A635F /* Main.storyboard */; };
 		DB5DBFA220101D27004A635F /* Roofus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFA020101D27004A635F /* Roofus.xcdatamodeld */; };
 		DB5DBFA420101D27004A635F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5DBFA320101D27004A635F /* Assets.xcassets */; };
 		DB5DBFA720101D27004A635F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5DBFA520101D27004A635F /* LaunchScreen.storyboard */; };
 		DB5DBFB220101D28004A635F /* RoofusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFB120101D28004A635F /* RoofusTests.swift */; };
 		DB5DBFBD20101D28004A635F /* RoofusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFBC20101D28004A635F /* RoofusUITests.swift */; };
+		DB5DBFCC20101F1F004A635F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFCB20101F1F004A635F /* HomeViewController.swift */; };
+		DB5DBFCF2010220A004A635F /* CoinApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5DBFCE2010220A004A635F /* CoinApiClient.swift */; };
+		F148C56B9ED97C42D85C7F37 /* Pods_RoofusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A086EE927DE2A97BA28C5DF1 /* Pods_RoofusTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0313F548D95747FE245010A5 /* Pods-Roofus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roofus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roofus/Pods-Roofus.release.xcconfig"; sourceTree = "<group>"; };
+		0E55AD03BA5A1C0C8D6C0818 /* Pods_RoofusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoofusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4563E3E12C84EB897B491ABE /* Pods-RoofusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoofusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoofusUITests/Pods-RoofusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C96A270F873399A16A3138A /* Pods-RoofusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoofusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoofusTests/Pods-RoofusTests.release.xcconfig"; sourceTree = "<group>"; };
+		8317DBA6924FB463FB1C633E /* Pods-Roofus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roofus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roofus/Pods-Roofus.debug.xcconfig"; sourceTree = "<group>"; };
+		A086EE927DE2A97BA28C5DF1 /* Pods_RoofusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoofusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0885E939F815112D7257A53 /* Pods-RoofusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoofusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoofusUITests/Pods-RoofusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C7533ADDEB5377DB17CEC838 /* Pods_Roofus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roofus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC029256AC99CC80865F05F8 /* Pods-RoofusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoofusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoofusTests/Pods-RoofusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2424702012789500B3B532 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB242473201279FB00B3B532 /* ApiClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientProtocol.swift; sourceTree = "<group>"; };
+		DB24247520127A3900B3B532 /* CoinMarketApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinMarketApiClient.swift; sourceTree = "<group>"; };
 		DB5DBF9620101D27004A635F /* Roofus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roofus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5DBF9920101D27004A635F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB5DBF9B20101D27004A635F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB5DBF9E20101D27004A635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB5DBFA120101D27004A635F /* Roofus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roofus.xcdatamodel; sourceTree = "<group>"; };
 		DB5DBFA320101D27004A635F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB5DBFA620101D27004A635F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,8 @@
 		DB5DBFB820101D28004A635F /* RoofusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoofusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB5DBFBC20101D28004A635F /* RoofusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoofusUITests.swift; sourceTree = "<group>"; };
 		DB5DBFBE20101D28004A635F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB5DBFCB20101F1F004A635F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DB5DBFCE2010220A004A635F /* CoinApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinApiClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A33A51149C2F9A497C39E6 /* Pods_Roofus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F148C56B9ED97C42D85C7F37 /* Pods_RoofusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFB785B2A77B5590EB18DD6 /* Pods_RoofusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BC50E2CEE319E2A005C681C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7533ADDEB5377DB17CEC838 /* Pods_Roofus.framework */,
+				A086EE927DE2A97BA28C5DF1 /* Pods_RoofusTests.framework */,
+				0E55AD03BA5A1C0C8D6C0818 /* Pods_RoofusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		713E048D07D6B0E162FE9912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8317DBA6924FB463FB1C633E /* Pods-Roofus.debug.xcconfig */,
+				0313F548D95747FE245010A5 /* Pods-Roofus.release.xcconfig */,
+				CC029256AC99CC80865F05F8 /* Pods-RoofusTests.debug.xcconfig */,
+				6C96A270F873399A16A3138A /* Pods-RoofusTests.release.xcconfig */,
+				4563E3E12C84EB897B491ABE /* Pods-RoofusUITests.debug.xcconfig */,
+				B0885E939F815112D7257A53 /* Pods-RoofusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB242472201279E900B3B532 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DB242473201279FB00B3B532 /* ApiClientProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		DB5DBF8D20101D27004A635F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				DB5DBFB020101D28004A635F /* RoofusTests */,
 				DB5DBFBB20101D28004A635F /* RoofusUITests */,
 				DB5DBF9720101D27004A635F /* Products */,
+				713E048D07D6B0E162FE9912 /* Pods */,
+				2BC50E2CEE319E2A005C681C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +153,14 @@
 		DB5DBF9820101D27004A635F /* Roofus */ = {
 			isa = PBXGroup;
 			children = (
+				DB5DBFCD201021E9004A635F /* Models */,
+				DB5DBFCA20101E38004A635F /* Views */,
 				DB5DBF9920101D27004A635F /* AppDelegate.swift */,
-				DB5DBF9B20101D27004A635F /* ViewController.swift */,
-				DB5DBF9D20101D27004A635F /* Main.storyboard */,
 				DB5DBFA320101D27004A635F /* Assets.xcassets */,
 				DB5DBFA520101D27004A635F /* LaunchScreen.storyboard */,
 				DB5DBFA820101D27004A635F /* Info.plist */,
 				DB5DBFA020101D27004A635F /* Roofus.xcdatamodeld */,
+				DB2424702012789500B3B532 /* Constants.swift */,
 			);
 			path = Roofus;
 			sourceTree = "<group>";
@@ -128,6 +183,24 @@
 			path = RoofusUITests;
 			sourceTree = "<group>";
 		};
+		DB5DBFCA20101E38004A635F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB5DBFCB20101F1F004A635F /* HomeViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB5DBFCD201021E9004A635F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB242472201279E900B3B532 /* Protocols */,
+				DB5DBFCE2010220A004A635F /* CoinApiClient.swift */,
+				DB24247520127A3900B3B532 /* CoinMarketApiClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB5DBFC120101D28004A635F /* Build configuration list for PBXNativeTarget "Roofus" */;
 			buildPhases = (
+				050F355D39677945E02D0784 /* [CP] Check Pods Manifest.lock */,
 				DB5DBF9220101D27004A635F /* Sources */,
 				DB5DBF9320101D27004A635F /* Frameworks */,
 				DB5DBF9420101D27004A635F /* Resources */,
+				6104287E4F8D55DC2EDF78BA /* [CP] Embed Pods Frameworks */,
+				D26FB14832756D5E5E76C6BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB5DBFC420101D28004A635F /* Build configuration list for PBXNativeTarget "RoofusTests" */;
 			buildPhases = (
+				77D8C97795094393BFE34D9D /* [CP] Check Pods Manifest.lock */,
 				DB5DBFA920101D28004A635F /* Sources */,
 				DB5DBFAA20101D28004A635F /* Frameworks */,
 				DB5DBFAB20101D28004A635F /* Resources */,
+				413CA661C30DAB2EE3514278 /* [CP] Embed Pods Frameworks */,
+				C3248775641CE2763E37D3F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB5DBFC720101D28004A635F /* Build configuration list for PBXNativeTarget "RoofusUITests" */;
 			buildPhases = (
+				EDD0B56AAD93537DD0A40413 /* [CP] Check Pods Manifest.lock */,
 				DB5DBFB420101D28004A635F /* Sources */,
 				DB5DBFB520101D28004A635F /* Frameworks */,
 				DB5DBFB620101D28004A635F /* Resources */,
+				3CEA4BE15B2FF4B330B58844 /* [CP] Embed Pods Frameworks */,
+				027F38BB8ACADEC72F70A08F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,7 +319,6 @@
 			files = (
 				DB5DBFA720101D27004A635F /* LaunchScreen.storyboard in Resources */,
 				DB5DBFA420101D27004A635F /* Assets.xcassets in Resources */,
-				DB5DBF9F20101D27004A635F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +338,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		027F38BB8ACADEC72F70A08F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoofusUITests/Pods-RoofusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		050F355D39677945E02D0784 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Roofus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CEA4BE15B2FF4B330B58844 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoofusUITests/Pods-RoofusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		413CA661C30DAB2EE3514278 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoofusTests/Pods-RoofusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6104287E4F8D55DC2EDF78BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Roofus/Pods-Roofus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roofus/Pods-Roofus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D8C97795094393BFE34D9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoofusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3248775641CE2763E37D3F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoofusTests/Pods-RoofusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26FB14832756D5E5E76C6BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roofus/Pods-Roofus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDD0B56AAD93537DD0A40413 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoofusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DB5DBF9220101D27004A635F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5DBF9C20101D27004A635F /* ViewController.swift in Sources */,
+				DB2424712012789500B3B532 /* Constants.swift in Sources */,
+				DB242474201279FB00B3B532 /* ApiClientProtocol.swift in Sources */,
+				DB24247620127A3900B3B532 /* CoinMarketApiClient.swift in Sources */,
 				DB5DBF9A20101D27004A635F /* AppDelegate.swift in Sources */,
 				DB5DBFA220101D27004A635F /* Roofus.xcdatamodeld in Sources */,
+				DB5DBFCC20101F1F004A635F /* HomeViewController.swift in Sources */,
+				DB5DBFCF2010220A004A635F /* CoinApiClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +535,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB5DBF9D20101D27004A635F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB5DBF9E20101D27004A635F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB5DBFA520101D27004A635F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,10 +655,11 @@
 		};
 		DB5DBFC220101D28004A635F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8317DBA6924FB463FB1C633E /* Pods-Roofus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7V3E3W28E;
+				DEVELOPMENT_TEAM = 8TS3DJKGBE;
 				INFOPLIST_FILE = Roofus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.Roofus;
@@ -443,10 +671,11 @@
 		};
 		DB5DBFC320101D28004A635F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0313F548D95747FE245010A5 /* Pods-Roofus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S7V3E3W28E;
+				DEVELOPMENT_TEAM = 8TS3DJKGBE;
 				INFOPLIST_FILE = Roofus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.airecodes.Roofus;
@@ -458,6 +687,7 @@
 		};
 		DB5DBFC520101D28004A635F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC029256AC99CC80865F05F8 /* Pods-RoofusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +705,7 @@
 		};
 		DB5DBFC620101D28004A635F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C96A270F873399A16A3138A /* Pods-RoofusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +723,7 @@
 		};
 		DB5DBFC820101D28004A635F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4563E3E12C84EB897B491ABE /* Pods-RoofusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +740,7 @@
 		};
 		DB5DBFC920101D28004A635F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0885E939F815112D7257A53 /* Pods-RoofusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
